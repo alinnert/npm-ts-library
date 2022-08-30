@@ -1,0 +1,23 @@
+{
+  "name": "npm-library-package",
+  "version": "0.0.0",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/joki.cjs.js",
+  "module": "./dist/joki.esm.js",
+  "exports": {
+    ".": {
+      "require": "./dist/joki.cjs.js",
+      "import": "./dist/joki.esm.js"
+    }
+  },
+  "types": "dist/main.d.ts",
+  "scripts": {
+    "build": "tsc --emitDeclarationOnly && node scripts/build.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.15.5",
+    "typescript": "^4.8.2"
+  }
+}
