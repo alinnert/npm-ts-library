@@ -4,12 +4,12 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/joki.cjs.js",
-  "module": "./dist/joki.esm.js",
+  "main": "./dist/main.cjs.js",
+  "module": "./dist/main.esm.js",
   "exports": {
     ".": {
-      "require": "./dist/joki.cjs.js",
-      "import": "./dist/joki.esm.js"
+      "require": "./dist/main.cjs.js",
+      "import": "./dist/main.esm.js"
     }
   },
   "types": "dist/main.d.ts",
