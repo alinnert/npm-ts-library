@@ -9,7 +9,8 @@
   "exports": {
     ".": {
       "require": "./dist/main.cjs.js",
-      "import": "./dist/main.esm.js"
+      "import": "./dist/main.esm.js",
+      "types": "./dist/main.d.ts"
     }
   },
   "types": "dist/main.d.ts",
